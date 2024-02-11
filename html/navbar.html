@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 8vh;
+      background-color: #171313;
+      font-family: "Poppins", sans-serif;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 2%;
+      position: relative;
+    }
+    .logo {
+      font-size: 1.5rem;
+      margin-left: 2%;
+      padding: 1% 1%;
+    }
+    .menu {
+      display: block;
+      padding: 1%;
+    }
+    .menu-list {
+      position: relative;
+    }
+    .menu-list a {
+      background-color: transparent;
+    }
+    .menu-list .dropdown {
+      position: absolute;
+      top: 3.5vh;
+      left: 0;
+      background-color: rgb(234, 232, 232);
+      padding: 2% 0;
+      z-index: 1;
+      width: 20%;
+      box-shadow: 0 1vh 0.5vh 0.1vh black;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.5s ease;
+    }
+    .menu-list:hover .dropdown {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: all;
+    }
+    .menu-list .dropdown a {
+      display: block;
+      padding: 1%;
+      color: black;
+    }
+    .menu-list .dropdown a:hover {
+      color: red;
+      padding-left: 3%;
+    }
+    .menu-list1 {
+      position: relative;
+    }
+    .menu-list1 a {
+      background-color: transparent;
+    }
+    .menu-list1 .dropdown {
+      position: absolute;
+      top: 3.5vh;
+      left: 0;
+      background-color: rgb(234, 232, 232);
+      padding: 2% 0;
+      z-index: 1;
+      width: 20%;
+      box-shadow: 0 1vh 0.5vh 0.1vh black;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.5s ease;
+    }
+    .menu-list1:hover .dropdown {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: all;
+    }
+    .menu-list1 .dropdown a {
+      display: block;
+      padding: 1%;
+      color: black;
+    }
+    .menu-list1 .dropdown a:hover {
+      color: red;
+      padding-left: 3%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#" class="logo">E-shop</a>
+    <ul class="menu">
+      <li class="menu-list">
+        <a href="#">Electronics</a>
+        <div class="dropdown">
+          <a href="#">laptops</a>
+          <a href="#">mobiles</a>
+          <a href="#">tv's</a>
+        </div>
+      </li>
+      <li  class="menu-list1">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <a href="#">furniture</a>
+          <a href="#">decor</a>
+          <a href="#">kitchen</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
