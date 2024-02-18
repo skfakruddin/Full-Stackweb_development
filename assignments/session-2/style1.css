@@ -15,7 +15,7 @@ h1
     margin:20px;
 }
 .about{
-    display: flex;
+    display:flex;
     font-size: 1.2rem;
     gap:20px;
 }

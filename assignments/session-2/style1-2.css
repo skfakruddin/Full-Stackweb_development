@@ -9,23 +9,12 @@ body{
 }
 img{
     width: 300px;
-    
+
 }
-.sec-1,.sec-2{
+.div-1,.div-2{
     display: flex;
-    gap: 20px;
+   gap: 20px;
 }
 p{
     padding-top:10px ;
-}
-@media screen and (max-width: 500px){
-    body{
-        padding-left: 5px;
-    }
-    .sec-1,.sec-2{
-        flex-direction: column;
-    }
-    img{
-        width: 100%;
-    }
 }
