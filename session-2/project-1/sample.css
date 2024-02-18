@@ -1,0 +1,32 @@
+.b
+{
+    padding:50px;
+    margin:50px;
+    background-color: rgb(188, 27, 27);
+}
+.b h1{
+    color: azure;
+}
+.sp1
+{
+    color:silver;
+
+}
+.sp2
+{
+    color:gold;
+
+}
+.grp-2
+{
+    padding:50px;
+    margin:50px;
+    background-color: rgb(188, 27, 27);
+}
+.grp-2 h1{
+    color:gold ;
+}
+quote
+{
+    color:aliceblue;
+}
