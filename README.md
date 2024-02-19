@@ -12,3 +12,10 @@ Learn Full Stack Web Development Using HTML, CSS, Bootstrap JavaScript, Node.js,
 7. [MongoDB](#mongodb)
 8. [React.js](#reactjs)
 9. [Redux](#redux)
+# Assignments
+1. [Assignment 1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-1/aasignment1.html)
+2. [Assignment 2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-1/2.html)
+3. [Assignment 3](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-1/3.html)
+4. [Assignment 4](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index1.h)
+5. [Assignment 5](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index2.html)
+6. [Assignment 6](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html)
