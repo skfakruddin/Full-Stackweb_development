@@ -13,7 +13,7 @@ Learn Full Stack Web Development Using HTML, CSS, Bootstrap JavaScript, Node.js,
 8. [React.js](#reactjs)
 9. [Redux](#redux)
 # Hands On Practice
-1. [Employee Card](https://skfakruddin.github.io/Full-Stackweb_development/hands-on-practice/index.html)
+1. [My Card](https://skfakruddin.github.io/Full-Stackweb_development/hands-on-practice/index.html)
 
 # Assignments
 1. [Assignment 1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-1/aasignment1.html)
