@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main
+{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.employee
+{
+    width:350px;
+    height: 490px;
+text-align: center;
+    padding: 50px;
+    margin:auto;
+    background-color :rgb(225, 177, 113);
+    box-shadow: 5px 5px 5px 5px rgb(85, 49, 49);
+}
+img
+{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.about,.intrest,.job
+{
+    
+    font-size: 1rem;
+    margin-top:15px;
+    color: white;
+}
+.name,
+{
+    font-family: "Dancing Script", cursive;    padding: 0px;
+    font-size: 2rem;
+    color: white;
+}
