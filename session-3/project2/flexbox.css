@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent
+{
+    display: flex;
+
+    flex-wrap:wrap;
+   justify-content:space-between;
+
+   height: 600px;
+   align-items: end;
+    max-width:600px;
+     margin: auto;
+    border: 2px solid rgb(66, 25, 25);
+    background-color: rgb(179, 60, 100);
+    
+}
+
+.child1,.child2,.child3,.child4,.child5,.child6
+{
+    font-size: 1.1rem;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.child1{
+
+    background-color: burlywood;
+}
+.child2{
+
+    background-color: azure;
+}
+.child3{
+    background-color: aquamarine;
+}
+
+.child4{
+
+    background-color: burlywood;
+}
+.child5{
+
+    background-color: azure;
+}
+.child6{
+    background-color: aquamarine;
+}

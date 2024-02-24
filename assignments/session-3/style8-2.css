@@ -5,13 +5,13 @@
     
 }
 
-.header,.footer{
-    padding: 1px;
-    margin: 10px;
-    background-color:  rgb(56, 166, 194);
-
-    text-align: center;
-    font-size: 2rem;
+.main
+{
+    display: flex;
+    transform: translate(0%, 25%);
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .employee
 {
@@ -19,9 +19,17 @@
     height: 490px;
 text-align: center;
     padding: 50px;
-    margin:auto;
     background-color :rgb(225, 177, 113);
     box-shadow: 5px 5px 5px 5px rgb(85, 49, 49);
+}
+.header
+{
+   background-color:rgb(84, 176, 176);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
 }
 img
 {
@@ -29,6 +37,13 @@ img
     height: 10em;
     border-radius: 50%;
     margin-bottom: 10px;
+}
+.header ul{
+    display: flex;
+width: 600px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
 }
 .name
 {
@@ -42,12 +57,4 @@ img
     font-size: 1rem;
     margin-top:15px;
     color: white;
-}
-.header
-{
-    margin-bottom:50px;
-}
-.footer
-{
-    margin-top:50px;
 }

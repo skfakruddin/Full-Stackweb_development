@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+   background-color:rgb(84, 176, 176);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+}
+.header ul{
+    display: flex;
+width: 400px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main
+{
+    min-height: 100vh;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(84, 176, 176);
+    padding: 50px;
+}
+.main img{
+   width: 200px;
+   height: 200px;
+   
+}

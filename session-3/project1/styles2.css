@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-color:rgba(15, 237, 48, 0.9);
+    --secondary-color: #e31076;
+    --tertiary-color: #e90f4d;
+    --text-dark: #24
+
+}
+h1
+{
+    color: var(--primary-color);
+    font-size: 2.5
+}
+.p1
+{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+.p2
+{
+    color: var(--tertiary-color);
+    font-size: 1.5rem;
+}
+a
+{
+    color: var(--text-dark);
+}
+-- light-color :
+fif4f5
+—white-color:
+#fbfeff
+u
+-- light-blue-color:
+7ecdd8
+—medium-blue-color:
+lc8eae
+--medium-dark-color:
+#392ø12
+—amber-color:
+#FFBFØØ
+D#1B4D3E;
+-- green-color :
+—cyan-color:
+#15F4EE
+-- green-blue-color: O #116fB4
+Ü#ØØ416A;
+—indigo-color:
+-- red-violet-color: 0#C7158
+DØ417E

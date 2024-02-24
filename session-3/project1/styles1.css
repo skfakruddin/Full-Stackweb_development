@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1
+{
+
+    color: var(--cyan-color);
+}
+.p1
+{
+    color: var(--amber-color);
+}
+.p2
+{
+    color: var(--red-violet-color);
+}
+a
+{
+    color: var(--text-dark);
+
+}
+h2
+{
+    color: var( --green-blue-color);
+} */
+div{
+    border:20px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    box-sizing: border-box;
+    text-align: center;
+}
