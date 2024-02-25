@@ -23,8 +23,10 @@ Learn Full Stack Web Development Using HTML, CSS, Bootstrap JavaScript, Node.js,
 5. [Assignment 5](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index2.html)
 6. [Assignment 6](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html)
 7. [Assignment 7]([https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html](https://skfakruddin.github.io/Full-Stackweb_development/assignments/sessio))
-8. [Assignment 8-1]([https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-3/index8.html)) [Assignment 8-2]([https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-3/index8-2.html))
-9. [Assignment 9-1]([Assignment 9-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html)) [Assignment 9-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-3/index9-2.html)
+8. [Assignment 8-1]([https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html]
+9. [Assignment 8-2]([https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html]
+10. [Assignment 9-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-2/index3.html))
+  [Assignment 9-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-3/index9-2.html)
 
 
 
