@@ -17,15 +17,20 @@ table
     border-collapse: collapse;
     box-shadow:  0 0 20px 0 rgba(211, 23, 23, 0.1);
 }
-
+.dummy
 {
+   padding: 10px;
+    font-size: 1.2em;
+    font:bolder;  
+}
+.title,.sub,.data,.dummy
+{
+    border-left: 2px solid black;
     padding: 10px;
     font-size: 1.2em;
-    font:bolder; 
-    background-color: #eec5c5;
- 
+    font:bolder;
 }
-th,td
+.title,.sub,.dummy
 {
     border: 2px solid black;
     padding: 10px;
