@@ -40,7 +40,8 @@ img
 }
 .name
 {
-    font-family: "Dancing Script", cursive;    padding: 0px;
+    font-family: "Dancing Script", cursive; 
+       padding: 0px;
     font-size: 2rem;
     color: white;
 }
