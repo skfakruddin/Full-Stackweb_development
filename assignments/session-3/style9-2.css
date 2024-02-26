@@ -45,3 +45,19 @@ img
     font-size: 2rem;
     color: white;
 }
+.previous
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.previous:hover
+{
+    color: black;
+}
