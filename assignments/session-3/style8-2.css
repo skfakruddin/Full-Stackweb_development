@@ -62,5 +62,22 @@ width: 600px;
     
     font-size: 1rem;
     margin-top:15px;
+   
     color: white;
+}
+.previous
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.previous:hover
+{
+    color:white;
 }
