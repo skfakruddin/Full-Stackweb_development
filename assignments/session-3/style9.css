@@ -79,7 +79,7 @@ width: 600px;
     border-radius: 5px;
 }
 
-.next
+.forward
 {
     text-decoration: none;
     color: white;
@@ -91,7 +91,7 @@ width: 600px;
     align-items: center;
     
 }
-.next:hover
+.forward:hover
 {
     color: black;
 }
