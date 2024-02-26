@@ -74,7 +74,7 @@ width:100%;
     padding: 10px 20px;
     border-radius: 5px;
 }
-.next
+.forward
 {
     text-decoration: none;
     color: white;
@@ -86,7 +86,7 @@ width:100%;
     align-items: center;
     
 }
-.next:hover
+.forward:hover
 {
     color: black;
 }
