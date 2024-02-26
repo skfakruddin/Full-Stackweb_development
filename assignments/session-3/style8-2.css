@@ -71,9 +71,9 @@ width: 600px;
     color: black;
     font-size: 1.8rem;
     text-decoration: underline;
-    display: flex;
     margin-top: 150px;
-    justify-content: center;
+    margin-bottom: 70px;
+  text-align: center;
     align-items: center;
     
 }
