@@ -51,6 +51,11 @@ width: 600px;
     justify-content: space-between;
     padding: 10px;
 }
+a
+{
+    text-decoration: none;
+    color: black;
+}
 .name
 {
     font-family: "Dancing Script", cursive;    padding: 0px;
