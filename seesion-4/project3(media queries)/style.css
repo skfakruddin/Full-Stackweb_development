@@ -8,21 +8,65 @@ div{
 
  width:100%;
     background-color: rgb(130, 190, 40);
-    height: 600px;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align:center;
 
+}
+.parent
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.block
+{
+border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+.block img
+{
+    width:150px;
+    display: block;
+    height: 200px;
+    border-radius: 50%;
+}
+img{
+    width:100%;
+max-width: 700px;
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 @media screen and (max-width: 576px){
     div{
         background-color: red;
+        font-size: 0.3rem;
     }
 }
 @media screen and (min-width:577px) and  (max-width: 768px){
     div{
         background-color: rgb(71, 15, 223);
+        font-size: 1rem;
+    }
+    .block h1
+    {
+font-size: 0.5rem;
     }
 }
 @media screen and (min-width:769px) and  (max-width: 992px){
     div{
         background-color: yellow;
+        font-size: 1rem;
     }
 }
+
