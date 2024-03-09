@@ -4,12 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
+.container
 {
-    display: flex;
+display: flex;
+flex-direction: column;
+
+
+}
+.fo
+{
     height: 700px;
     width:400px;
-    flex-direction: column;
     margin-top: 100px;
     transform: translate(135%, 15%);
     border: 2px solid black;

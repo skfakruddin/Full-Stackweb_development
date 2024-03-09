@@ -32,28 +32,14 @@ width:100%;
     text-align: center;
     height: 500px;
     width: 400px;
-    box-shadow:  60px 20px 20px 0 rgba(216, 177, 177, 0.1);
+    box-shadow:  60px 20px 20px 0 rgba(176, 29, 29, 0.1);
 }
-.child1{
+.child1,
+.child2,
+.child3,
 
-    background-color: white;
-}
-.child2{
-
-    background-color: white;
-}
-.child3{
-    background-color: white;
-}
-
-.child4{
-
-    background-color: white;
-}
-.child5{
-
-    background-color: white;
-}
+.child4,
+.child5,
 .child6{
     background-color: white;
 }

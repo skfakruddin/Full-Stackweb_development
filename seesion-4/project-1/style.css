@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent
+{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin: 100px;
+    position: relative;
+}
+/* .child1
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;    //relative
+    position:relative;
+   top: 150px;
+   left: 50px;
+}
+.child2
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+} */
+.child1
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position:absolute;     /* absolute  */
+   top: 250px;
+   left: 250px;
+}
+.child2
+{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}

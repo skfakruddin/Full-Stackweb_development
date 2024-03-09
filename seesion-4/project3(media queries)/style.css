@@ -1,0 +1,28 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+
+ width:100%;
+    background-color: rgb(130, 190, 40);
+    height: 600px;
+
+}
+@media screen and (max-width: 576px){
+    div{
+        background-color: red;
+    }
+}
+@media screen and (min-width:577px) and  (max-width: 768px){
+    div{
+        background-color: rgb(71, 15, 223);
+    }
+}
+@media screen and (min-width:769px) and  (max-width: 992px){
+    div{
+        background-color: yellow;
+    }
+}

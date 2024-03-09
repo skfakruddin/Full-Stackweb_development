@@ -33,3 +33,11 @@ margin: 12px 0;
     color: #eee;
     transition: 0.15s all ease;
 }
+.form input:focus
+{
+    border-color: #ca1717 solid 2px;
+}
+.form input::placeholder
+{
+    color: blue;
+}
