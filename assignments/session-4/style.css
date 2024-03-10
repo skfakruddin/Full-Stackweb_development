@@ -26,6 +26,11 @@ width: 400px;
     font-size: 1rem;
     color:rgb(20, 226, 226);
 }
+nav ul li a{
+    text-decoration: none;
+    color:rgb(20, 226, 226);
+}
+
 .container
 {
     display: flex;
