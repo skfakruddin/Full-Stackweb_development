@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: lighter;
+
+
+}
+nav {
+    background-color:transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+nav .com1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+nav li
+{
+margin-top: 10px;
+}
+
+.logo
+{
+    width: 100px;
+    height: 40px;
+    margin-right: 40px;
+
+}
+.navli
+{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: -20px;
+    pa
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+ nav ul a
+ {
+      
+        text-decoration: none;
+                margin-left: 20px;
+ }   
+.container
+{
+  display: flex;  
+  justify-content: space-between;
+
+}
+.container p{
+margin-top: 90px;
+font-size: 4rem;
+
+}
+.container p , span {
+    margin-left: 160px;
+}
+.container article{
+    margin-top: 90px;
+    margin-left: 160px;
+}
+.container img{
+    width: 500px;
+    height: 500px;
+    margin-top: 55px;
+    margin-right: 150px;
+
+}
+.email
+{
+    margin-top: 50px;
+    margin-left: 160px;
+    font-size: 1.5rem;
+}
+.email input{
+    width: 230px;
+    height: 50px;
+    margin-top: ;
+    border: px solid black;
+}
+.email a{
+    width: 100px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: -6.5px;
+    border: 12px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
