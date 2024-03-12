@@ -75,7 +75,7 @@ body
 
 
 }
- @media screen and (max-width: 576px){
+ @media screen and (max-width: 600px){
     .parent{
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
