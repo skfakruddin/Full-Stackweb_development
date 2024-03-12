@@ -23,17 +23,20 @@ nav .com1
 {
     display: flex;
     justify-content: space-between;
-    width: 650px;
 }
 nav li
 {
-margin-top: 10px;
+margin-top: 5px;
+margin-bottom: 20px;
+
 }
 
 .logo
 {
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
+    padding: 4px;
+    margin-left: 20px;
     margin-right: 40px;
 
 }
@@ -41,64 +44,108 @@ margin-top: 10px;
 {
     text-decoration: none;
     margin-top: 20px;
-    margin-left: -20px;
-    pa
+    margin-left: 20px;
+    padding: 20px;
+    
 
 }
 nav ul{
     display: flex;
     list-style: none;
+    margin-right: 20px;
+
+}
+.dropdown 
+{
+    margin-right: 10px;
 }
  nav ul a
  {
-      
+      margin-left: 20px;
         text-decoration: none;
-                margin-left: 20px;
  }   
 .container
 {
   display: flex;  
+  flex-wrap: wrap;
   justify-content: space-between;
 
 }
-.container p{
-margin-top: 90px;
-font-size: 4rem;
+.container .heading{
+margin-top: 80px;
+font-size: 4.6rem;
 
 }
-.container p , span {
-    margin-left: 160px;
+.para{
+    font-size: 1rem;
+}
+.container ,.heading, .para {
+    margin-left: 30px;
 }
 .container article{
     margin-top: 90px;
-    margin-left: 160px;
+    margin-left: 40px;
 }
 .container img{
-    width: 500px;
-    height: 500px;
+    max-width: 550px;
     margin-top: 55px;
-    margin-right: 150px;
+    margin-right: 50px;
 
 }
 .email
 {
-    margin-top: 50px;
-    margin-left: 160px;
+    margin-top: 30px;
+    margin-left: 30px;
     font-size: 1.5rem;
 }
-.email input{
-    width: 230px;
-    height: 50px;
-    margin-top: ;
-    border: px solid black;
+/* .email input{
+    width: 280px;
+    height: 45px;
+    border: 2px solid black;
 }
 .email a{
     width: 100px;
-    height: 40px;
-    margin-top: 0px;
+    height: 45px;
+    top: 0.5px;
+    margin-top: -0px;
+    padding: 10px;
     margin-left: -6.5px;
-    border: 12px solid black;
     background-color: black;
     color: white;
+    text-align: center;
     text-decoration: none;
+} */
+.email input{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9.4px;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid #1f1f1f;
+}
+.email a{
+    margin-left: -6.5px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 11.1px;
+    width: 150px;
+    font-size: 1rem;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+@media screen  and (max-width: 830px )
+{
+ .navli {
+    display:none ;
+}
+.navul
+{
+    margin-right:30px ;
+}
+nav .com1
+{
+  
+    width: 40px;
+}
 }
