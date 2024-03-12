@@ -98,23 +98,7 @@ font-size: 4.6rem;
     margin-left: 30px;
     font-size: 1.5rem;
 }
-/* .email input{
-    width: 280px;
-    height: 45px;
-    border: 2px solid black;
-}
-.email a{
-    width: 100px;
-    height: 45px;
-    top: 0.5px;
-    margin-top: -0px;
-    padding: 10px;
-    margin-left: -6.5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-} */
+
 .email input{
     padding-top: 10px;
     padding-left: 10px;
@@ -145,7 +129,6 @@ font-size: 4.6rem;
 }
 nav .com1
 {
-  
-    width: 40px;
+      width: 40px;
 }
 }
