@@ -25,7 +25,6 @@ nav h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
  .size1
 {
@@ -43,6 +42,7 @@ nav h1{
     margin-bottom: 90px;
     font-size: 1rem;
     color:white;
+    line-height:2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img
@@ -51,7 +51,7 @@ img
     width: 200px;
     height: 200px;
     margin-top:-95px;
-    margin-right: 200px;
+    margin-right: 80px;
     
 }
 .container
@@ -113,11 +113,17 @@ article
     padding: 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+@media screen and (max-width: 1033px){
+img
+{
+    margin-top: 10px ;
+}
+}
 @media screen and (max-width: 576px){
     .size1
     {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        margin-left: -50px;
     }
     .size3
     {
