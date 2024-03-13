@@ -83,7 +83,7 @@ font-size: 4.6rem;
     margin-left: 30px;
 }
 .container article{
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 .container img{
@@ -131,4 +131,59 @@ nav .com1
 {
       width: 40px;
 }
+}
+@media screen and (min-width:501px) and (max-width: 600px){
+ .container .heading{
+    font-size: 3.5rem;
+    margin-left: 60px;
+ }
+    .container .para{
+        margin-left: 60px;
+    }
+    .container article{
+        margin-left: 60px;
+    }
+    .container img{
+        max-width:400px ;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+    .email
+    {
+        margin-left: 60px;
+    }
+    .email input{
+        width: 150px;
+    }
+    .email a{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .container .heading{
+        font-size: 2.5rem;
+        margin-left: 20px;
+    }
+    .container .para{
+        margin-left: 20px;
+    }
+    .container article{
+        margin-left: 20px;
+    }
+    .container img{
+        max-width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .email
+    {
+        margin-left: 20px;
+    }
+    .email input{
+        width: 150px;
+    }
+    .email a{
+        width: 80px;
+    }
 }
