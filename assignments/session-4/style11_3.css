@@ -186,4 +186,7 @@ nav .com1
     .email a{
         width: 80px;
     }
+    .navul{
+        margin-right: -10px;
+    }
 }
