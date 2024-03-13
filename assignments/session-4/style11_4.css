@@ -6,12 +6,10 @@
 .parent
 {
     display: grid;
-    grid-template-columns: 350px 1fr 1fr;
-    grid-template-rows: 150px 1fr 150px; 
-   
-    position: relative;
-    
-}
+    grid-template-columns: 350px 1fr 1fr ;
+    grid-template-rows: 150px 1fr 150px 150px; 
+       position: relative;
+    }
 .header
 {
     background-color:#ba064e;
