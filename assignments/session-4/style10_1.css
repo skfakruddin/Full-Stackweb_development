@@ -228,6 +228,7 @@ article
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 }
+
 @media screen and (max-width: 600px){
     .rectangle
 {
@@ -301,6 +302,7 @@ img{
     color: aliceblue;
     border: 1px solid black;
     padding:  50px 10px;
+
     grid-column: 1/2;
     grid-row: 4/5;      
 }
@@ -332,4 +334,116 @@ article
     padding: 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+}
+@media screen and (max-width: 420px){
+    .rectangle
+    {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows:1fr auto auto auto auto; 
+        column-gap: 5px;
+        row-gap: 10px;
+        position: relative;
+        margin: 10px;
+        
+    }
+    .box
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 700px;
+    }
+     .size1
+    {
+        margin-top: 90px;
+        font-size: 3.3rem;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 50px;
+        width: 70%;
+    }
+    .size12
+    {
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        font-size: 1rem;
+        color:white;
+        line-height:2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .eagle{
+        grid-column: 1/2;
+    grid-row: 2/3;
+    
+    }
+    img{
+            
+            width: 220px;
+            height: 220px;
+           margin-top: 0px;
+            margin-left: 120px;
+            margin-right: 60px;
+            
+        
+    }
+    .box1
+    {
+        
+        color: aliceblue;
+        background-color: #571212;
+        border: 1px solid black;
+        padding:  50px 10px;
+        grid-column: 1/2;
+        grid-row: 3/4;    
+        margin: 0 10px;
+
+    }
+    .box2
+    {
+       
+        background-color: #571212;
+        color: aliceblue;
+        border: 1px solid black;
+        padding:  50px 10px;
+        grid-column: 1/2;
+        grid-row: 4/5;      
+        margin: 0 10px;
+
+    }
+    .box3
+    {
+        color: aliceblue;
+        background-color: #571212;
+        border: 1px solid black;
+        padding:  50px 10px;
+        grid-column: 1/2;
+        grid-row: 5/6;     
+        margin: 0 10px;
+ 
+    }
+    .container .grp{
+        font-size: 1.4rem;
+    
+    }
+    .size3
+    {
+        font-size: 0.8rem;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 30px;
+        
+    }
+    article
+    {
+        font-size: 0.8rem;
+        color:white;
+        padding: 10px 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
 }
