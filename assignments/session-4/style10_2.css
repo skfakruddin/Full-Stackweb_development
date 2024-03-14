@@ -104,3 +104,11 @@ nav ul li a{
 {
 margin:20px 0;
 }
+@media screen and (max-width: 695px){
+    nav 
+    {
+        display:block;
+
+    }
+   
+}
