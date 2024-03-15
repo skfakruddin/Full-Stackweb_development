@@ -159,6 +159,22 @@ font-size:0.8rem;
    
    
 }
+.previouspage
+{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 50px;
+ 
+}
+.previouspage a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media screen and (max-width:365px) {
     .box1{
         padding: 10px;
