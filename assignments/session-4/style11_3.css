@@ -118,6 +118,40 @@ font-size: 4.6rem;
     background-color: #1f1f1f;
     color: #ffffff;
 }
+.nextpage
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: -70px;
+ 
+}
+.nextpage a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    font-size: 2rem;
+    color:black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.previouspage
+{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 60px;
+ 
+}
+.previouspage a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color:black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media screen  and (max-width: 830px )
 {
  .navli {

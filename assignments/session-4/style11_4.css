@@ -68,7 +68,22 @@ align-items: center;
     margin:20px ;
     flex-wrap: wrap;
 }
-
+.previouspage
+{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 30px;
+ 
+}
+.previouspage a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color:black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media screen and (min-width: 577px) and (max-width: 782px){
     .parent
     {

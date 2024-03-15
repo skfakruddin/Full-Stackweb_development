@@ -75,6 +75,31 @@ body
 
 
 }
+.nextpage
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: -50px;
+ 
+}
+.nextpage a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.previouspage a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
  @media screen and (max-width: 600px){
     .parent{
         grid-template-columns: 1fr ;
