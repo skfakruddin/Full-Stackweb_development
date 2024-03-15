@@ -161,5 +161,39 @@ body
         border-radius : 25px;
     
     
-    }       
+    }    
+    .nextpage
+    {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-top: -50px;
+     
+    }
+    .nextpage a{
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    
+        font-size: 1rem;
+        color:white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .previouspage
+    {
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        margin-top: 60px;
+     
+    }
+    .previouspage a{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        color:white;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }   
 } 
