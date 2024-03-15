@@ -53,7 +53,7 @@ nav h1{
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr 250px; 
+    grid-template-rows:1fr auto; 
     column-gap: 5px;
     row-gap: 10px;
     position: relative;
@@ -125,7 +125,7 @@ article
     padding: 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     .rectangle
     {
         display: grid;
@@ -334,17 +334,16 @@ article
     padding: 10px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-}
-@media screen and (max-width: 420px){
+} */
+@media screen and (max-width: 576px){
     .rectangle
     {
         display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows:1fr auto auto auto auto; 
-        column-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows:auto auto auto auto ; 
+        column-gap: 10px;
         row-gap: 10px;
         position: relative;
-        margin: 10px;
         
     }
     .box
@@ -352,9 +351,9 @@ article
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        grid-column: 1/2;
+        grid-column: 1/4;
         grid-row: 1/2;
-        max-width: 700px;
+        max-width: 900px;
     }
      .size1
     {
@@ -362,14 +361,14 @@ article
         font-size: 3.3rem;
         color:white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 50px;
+        margin-left: 40px;
         width: 70%;
     }
     .size12
     {
-        margin-top: 30px;
+        margin-top: -200px;
         margin-left: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-size: 1rem;
         color:white;
         line-height:2rem;
@@ -377,8 +376,9 @@ article
     }
     
     .eagle{
-        grid-column: 1/2;
-    grid-row: 2/3;
+        grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 500px;
     
     }
     img{
@@ -398,10 +398,8 @@ article
         background-color: #571212;
         border: 1px solid black;
         padding:  50px 10px;
-        grid-column: 1/2;
-        grid-row: 3/4;    
-        margin: 0 10px;
-
+        grid-column: 1/4;
+        grid-row: 2/3;    
     }
     .box2
     {
@@ -410,9 +408,8 @@ article
         color: aliceblue;
         border: 1px solid black;
         padding:  50px 10px;
-        grid-column: 1/2;
-        grid-row: 4/5;      
-        margin: 0 10px;
+        grid-column: 1/4;
+        grid-row: 3/4;      
 
     }
     .box3
@@ -421,9 +418,8 @@ article
         background-color: #571212;
         border: 1px solid black;
         padding:  50px 10px;
-        grid-column: 1/2;
-        grid-row: 5/6;     
-        margin: 0 10px;
+        grid-column: 1/4;
+        grid-row: 4/5;     
  
     }
     .container .grp{
