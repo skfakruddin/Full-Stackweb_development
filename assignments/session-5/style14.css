@@ -1,0 +1,22 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 400px;
+}
+h1
+{
+    font-size:large;
+}
+.star
+{
+    width: 90px;
+}
+.btn
+{
+    background-color: #eceb98;
+}
