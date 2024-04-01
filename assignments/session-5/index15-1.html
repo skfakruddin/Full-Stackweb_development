@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav class="d-flex flex-wrap justify-content-between border border-white shadow-sm p-1">
-   <ul class="nav">
+   <ul class="nav justify-content-center">
      <li class="nav-item"><a class="nav-link link-dark" href="#">Company name</a></li>
    </ul>
     <ul class="nav">
@@ -21,13 +21,51 @@
     </ul>
 </nav>
 <h1 class="display-2 text-center my-5 ">Pricing</h1>
-<p class="text-center">Quickly build an effective pricing table for your potential customers with <br> this Bootstrap example. It's built with default Bootstrap components and <br> utilities with little customization.</p>
-<div class="container">
-    <div class="card">
+<p class=" mx-auto p-2 text-center " style="max-width:576px;">Quickly build an effective pricing table for your potential customers with <br> this Bootstrap example. It's built with default Bootstrap components and <br> utilities with little customization.</p>
+<div class="container w-100 d-flex flex-wrap justify-content-center "  >
+    <div class="card m-4" style="width: 250px;">
         <div class="card-header">
             <h3 class="text-center">Free</h3>
         </div>
+        <div class="card-body">
+            <h1 class=" fs-3 text-center">$0  <span>/ mo</span></h1>
+            <p class="text-center p-0 m-0">10 users included</p>
+            <p class="text-center m-0">2 GB of storage</p>
+            <p class="text-center m-0">Email support</p>
+            <p class="text-center m-0">Help center access</p>
+            
+            <button class="btn border text-primary border-primary  w-100 mt-3">Sign up for free</button>
+        </div>
     </div>
+      <div class="card m-4" style="width: 250px;">
+        <div class="card-header">
+            <h3 class="text-center">Pro</h3>
+        </div>
+        <div class="card-body">
+            <h1 class=" fs-3 text-center">$0  <span>/ mo</span></h1>
+            <p class="text-center p-0 m-0">20 users included</p>
+            <p class="text-center m-0">10 GB of storage</p>
+            <p class="text-center m-0">Priority Email Support</p>
+            <p class="text-center m-0">Help center access</p>
+            
+            <button class="btn btn-primary  mt-3 w-100">Get Started</button>
+        </div>
+    </div>
+       <div class="card m-4" style="width: 250px;">
+        <div class="card-header">
+            <h3 class="text-center">Enterprise</h3>
+        </div>
+        <div class="card-body">
+            <h1 class=" fs-3 text-center">$0  <span>/ mo</span></h1>
+            <p class="text-center p-0 m-0">30 users included</p>
+            <p class="text-center m-0">15 GB of storage</p>
+            <p class="text-center m-0">Phone and Email Support</p>
+            <p class="text-center m-0">Help center access</p>
+            
+            <button class="btn btn-primary text-center mt-3  w-100">Contact us</button>
+        </div>
+    </div> 
+    
 </div>
 </body>
 </html>
