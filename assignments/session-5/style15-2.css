@@ -4,10 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container
-{
-    width: 400px;
-}
+
 h1
 {
     font-size:large;
@@ -17,19 +14,9 @@ h1
     color: #f05537;
     font-size: 1.5rem;
 }
-.star
-{
-    width: 90px;
-}
-.btn
-{
-    background-color: #eceb98;
-}
+
 .display-5,.display-6
 {
     font-size: 1.5rem;
 }
-.employee
-{
-    
-}
+
