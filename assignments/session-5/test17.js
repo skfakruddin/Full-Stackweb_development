@@ -1,5 +1,6 @@
 let a,b;
 a=10,b=20;
+console.log("greatest of 2:");
 if(a>b)
 {
     console.log(" a is greater than b");
@@ -11,6 +12,8 @@ else
 
 let x,y,z;
 x=10,y=20,z=30;
+console.log("greatest of 3:");
+
 if(x>y && x>z)
 {
     console.log(" x is greater than y and z");
@@ -24,6 +27,8 @@ else
 console.log(" z is greater than x and y");
 }
 //factors
+console.log("factors of number:");
+
 function findFactors(n)
 {
     let factors =[];
@@ -40,6 +45,8 @@ console.log(findFactors(10));
 
 
 // prime numbers
+console.log(" n is prime number or not:");
+
 let n = 10;
 let flag = false;
 for(let i=2;i<n;i++)
@@ -60,6 +67,8 @@ else
 }
 
 //print even factors
+console.log("even factors of number: ");
+
 function findEvenFactors(n)
 {
     let factors =[];
@@ -75,6 +84,7 @@ return factors;
 console.log(findEvenFactors(10));
 
 //recieve number and return the sum of digits
+console.log("sum of digits of number:");
 
 function sumOfDigits(n)
 {
