@@ -1,5 +1,3 @@
-console.log("The sum of the array is:",total);
-
 let a=[1,2,3,4,];
 let i=10;
 let inc=a.map(function(value){
