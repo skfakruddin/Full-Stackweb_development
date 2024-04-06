@@ -102,6 +102,7 @@ console.log(bigSum(5,6));
 
 function gigSum(a,b)
 {
+    console.log(typeof a);
     if(a>b)
     {
         return a;
