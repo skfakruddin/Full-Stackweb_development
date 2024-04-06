@@ -3,3 +3,4 @@ let total=0;
 for(let i=0;i<sum.length;i++){
     total+=sum[i];
 }
+console.log(total);
