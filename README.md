@@ -42,7 +42,14 @@ Learn Full Stack Web Development Using HTML, CSS, Bootstrap JavaScript, Node.js,
   19.[Assignment 18-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index18-1.html)
   [Assignment 18-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index18-2.html)
   [Assignment 18-3](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index18-3.html)
-  20. [Assignment 18](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index19-1.html)
+  20. [Assignment 19-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index19-1.html)
+  [Assignment 19-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index19-2.html)
+  [Assignment 19-3](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index19-3.html)
+  21. [Assignment 20-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index20-1.html)
+  [Assignment 20-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index20-2.html)
+  22. [Assignment 21-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index21-1.html)
+  [Assignment 21-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index21-2.html)
+  [Assignment 21-3](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-5/index21-3.html)
 
 
 
