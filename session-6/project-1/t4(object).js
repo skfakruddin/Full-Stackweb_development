@@ -129,7 +129,7 @@ let emps = [
 let minAgePerson = emps.reduce((min, emp) => {
     return emp.age < min.age ? emp : min;
 });
-console.log(minAgePerson);
+console.log("minage:",minAgePerson);
 let incSalary=emps.map(function(emp){
     return emp.salary+5000;
 });
