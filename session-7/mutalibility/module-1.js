@@ -1,5 +1,13 @@
- let a=10;
-// let us="ravi";
-// let marks=[10,20,30];
-// let obj={name:"ravi",marks:[10,20,30]};
-export default {a};  // exporting multiple variables at once.
+
+// Named Export
+
+let a = 9;
+let Username = "Vignesh";
+let arr = [1, 2, 3, 4, 5];
+let obj = { 
+    name: "Vignesh", 
+    age: 19
+};
+
+// Default Export pack all the default exports into a single object
+export default {Username, a, arr, obj};

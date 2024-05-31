@@ -18,7 +18,6 @@ background-color: #f7dfe2;
     background-color: white;
     border-radius:10px ;
     box-shadow: 2px 2px 5px grey;
-
 }
 .left-container
 {
@@ -26,8 +25,7 @@ background-color: #f7dfe2;
     height: 100%;
     margin: auto 0px;
     position: relative;
-    
-    padding: 20px;
+        padding: 20px;
  
 
 
@@ -59,7 +57,7 @@ background-color: #f7dfe2;
 {
     text-align: center;
 }
-#email
+#email, #password
 {
     width: 80%;
     padding: 10px;
@@ -68,15 +66,7 @@ background-color: #f7dfe2;
     border: 1px solid #ccc;
 
 }
-#password
-{
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
 
-}
 .details
 {
     text-align: center;

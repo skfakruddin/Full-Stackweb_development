@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+}
+/* p
+{
+    text-align: center;
+    margin: 10px 0;
+    color: blue;
+
+} */
+h2{
+    display: inline;
+}
+.animae
+{
+    text-align: center;
+    margin: 10px 0;
+    color: blue;
+    
+
+}
+
+button{
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+}
