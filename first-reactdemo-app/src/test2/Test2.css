@@ -1,0 +1,28 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead{
+    background-color: #111;
+    color: white;
+}
+tbody{
+    background-color: #edc7c7df;
+    color: black;
+    padding: 30px;
+}
+th,td{
+    border: 1px solid white;
+    padding: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+.apitable
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}

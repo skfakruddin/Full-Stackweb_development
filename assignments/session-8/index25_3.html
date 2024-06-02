@@ -7,20 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+    <h1>Arithmetic Calculator</h1>
     <form >
-        <input class="n1" type="number" name="first">
-        <input class="n2"type="number" name="second">
-        <button type="submit">+</button>
-        <button type="submit">-</button>
-        <button type="submit">*</button>
-        <button type="submit">/</button>
-        <button type="submit">%</button>
+        <div class="input">
+
+            <input class="n1" type="number" name="first">
+            <input class="n2"type="number" name="second">
+        </div>
+        <div class="buttons">
+            <button id="add" type="submit">+</button>
+            <button id="sub"  type="submit">-</button>
+            <button id="mul" type="submit">*</button>
+            <button id="div" type="submit">/</button>
+            <button id="mod" type="submit">%</button>
+        </div>
     </form>
-    <div class="result1"></div>
-    <div class="result2"></div>
-    <div class="result3"></div>
-    <div class="result4"></div>
-    <div class="result5"></div>
+        <h1 class="result">Result: <span class="res"></span></h1> 
+    </div>
     <script src="script25_3.js"></script>
 </body>
 </html>
