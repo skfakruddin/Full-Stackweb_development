@@ -1,0 +1,53 @@
+.logo
+{
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: -30px;
+}
+.nav1
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:white;
+}
+.home
+{
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  margin-top: 25px;
+
+}
+li
+{
+  list-style-type: none;
+  padding: 0 20px;
+  font-size: 1.5rem;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+h1{
+  color: red;
+  text-align: center;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  
+}
+.bignav
+{
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  margin-top: 25px;
+}
