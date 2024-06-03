@@ -6,14 +6,15 @@
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100px;
 }
 
 .card{
    width: 400px;
-    height: auto;
+    height: 780px;
     margin-top: 25px;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.23);
     background-color: white;
 }
 h2{
@@ -29,10 +30,28 @@ p
 img
 {
     width: 250px;
-    height: 350px;
+    height: 300px;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
     margin:0  50px;
 
+}
+.bgrey
+{
+    color: gray;
+    font-weight: bold;
+}
+.grey{
+    color: gray;
+    font-size: large;
+}
+.black
+{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.price
+{
+    padding-left:10px ;
 }
