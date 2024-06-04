@@ -3,15 +3,15 @@
   width: 80px;
   height: 50px;
   border-radius: 5px;
-  margin-top: 0px;
-  margin-left: -30px;
+  margin: 18px 0;
+  margin-left: 30px;
 }
 .nav1
 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color:white;
+  background-color:rgb(154, 15, 15);
 }
 .home
 {
