@@ -56,6 +56,8 @@ Learn Full Stack Web Development Using HTML, CSS, Bootstrap JavaScript, Node.js,
   25. [Assignment 24-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-7/index24-1.html)
   [Assignment 24-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-7/index24-2.html)
   26.[Assignment 25-1](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-8/index25_1.html)
+  [Assignment 25-2](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-8/index25_2.html)    
+  [Assignment 25-3](https://skfakruddin.github.io/Full-Stackweb_development/assignments/session-8/index25_3.html)    
 
 
 
