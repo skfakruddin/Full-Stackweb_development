@@ -35,9 +35,7 @@ function displaypost() {
         tr.appendChild(td4);
         
         tableBody.appendChild(tr);
-        // for grid
 /* 
-//commited
         let div = document.createElement('div');
         let d1 = document.createElement('p');
         let d2 = document.createElement('p');
@@ -58,7 +56,7 @@ function displaypost() {
 
 
         gridContainer.appendChild(div); 
-
+*/
 
     });
 }
