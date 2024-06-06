@@ -1,9 +1,9 @@
 .logo
 {
-  width: 60px;
-  height: 40px;
+  width: 100px;
+  height:80px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: -20px;
   margin-left: 10px;
 }
 .nav1
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color:rgba(61, 52, 52, 0.588);
+  background-color:#ffffff;
   margin-bottom: 80px;
   max-width: 100%;
 }
