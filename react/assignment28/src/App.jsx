@@ -12,9 +12,9 @@ function App(){
         setRegisteredUsers([...RegisteredUsers,userObj])
     }
     return (
-        <div className='container mx-auto mt-5 '>
+        <div className='container  mx-auto mt-5  '>
             <h1 className="text-center text-danger display-3">User Registration</h1>
-         <form  className="form " onSubmit={handleSubmit(handleFormSubmit)}>
+         <form  className=" form mt-5 col-md-6 mx-auto border border-dark rounded-3 p-4" onSubmit={handleSubmit(handleFormSubmit)}>
             <div className="mb-3">
                 <label htmlFor="username" className="form-label">Username</label>
                 <input type="text" {...register('username')} className="form-control text-danger" id="username" />
