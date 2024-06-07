@@ -26,6 +26,7 @@ li
   list-style-type: none;
   padding: 0 20px;
   font-size: 1.5rem;
+
 }
 .cards{
   display: flex;
@@ -42,7 +43,6 @@ a
 {
   text-decoration: none;
   color: black;
-  
 }
 .bignav
 {
