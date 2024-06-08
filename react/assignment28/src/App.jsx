@@ -17,15 +17,19 @@ function App(){
          <form  className=" form mt-5 col-md-6 mx-auto border border-dark rounded-3 p-4" onSubmit={handleSubmit(handleFormSubmit)}>
             <div className="mb-3">
                 <label htmlFor="username" className="form-label">Username</label>
-                <input type="text" {...register('username')} className="form-control text-danger" id="username" />
+                <input type="text" {...register('username', { required: true, minLength: 4 })} className="form-control text-danger" id="username" />
+                {errors.username?.type === 'required' && <p className="text-danger">Username is required</p>}
+                    {errors.username?.type === 'minLength' && <p className="text-danger">Min Lenght Should be 4</p>}
             </div>
             <div className="mb-3">
-                <label htmlFor="username" className="form-label">DOB</label>
-                <input type="date" {...register('password')} name="password" className="form-control" id="password" />
+                <label htmlFor="dob" className="form-label">DOB</label>
+                <input type="date" {...register('dob' , { required: true })} name="dob" className="form-control" id="dob" />
+                {errors.dob?.type === 'required' && <p className="text-danger">DOB is required</p>}
             </div>
             <div className="mb-3">
-                <label htmlFor="username" className="form-label">City</label>
-                <input type="search" {...register('email')} className="form-control" id="email" />
+                <label htmlFor="city" className="form-label">City</label>
+                <input type="search" {...register('city', { required: true})} className="form-control" id="city" />
+                {errors.city?.type === 'required' && <p className="text-danger">City is required</p>}
             </div>
             <div className='text-center'>
             <button type="submit" className="btn btn-primary ">Add User</button>

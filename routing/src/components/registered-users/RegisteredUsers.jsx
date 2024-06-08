@@ -3,12 +3,19 @@ import { useLocation } from 'react-router-dom';
 
 function RegisteredUsers() {
     const [usersList, setUsersList] = useState([]);
-    const { state } = useLocation();
+    // const { state } = useLocation();
+    async function getUsers(){
+        let users=await fetch('http://localhost:3000/users',{method:"GET"});
+        let usersJson=await users.json()
+        setUsersList(usersJson)
+    
+    }
 
     useEffect(() => {
-        if (state) {
-            setUsersList([...usersList, state]);
-        }
+        // if (state) {
+        //     setUsersList([...usersList, state]);
+        // }
+        getUsers()
     }, []);
 
     return (

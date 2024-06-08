@@ -16,6 +16,9 @@ function Header(){
                 <li className='nav-item'>
                     <Link to="users" className='nav-link text-black'>Users</Link>
                 </li>
+                <li className='nav-item'>
+                    <Link to="parent" className='nav-link text-black'>Parent</Link>
+                </li>
            </ul>
         </div>
     )
