@@ -6,6 +6,7 @@ import Login from './components/login/Login';
 import Users from './components/users/Users';
 import RegisteredUsers from './components/registered-users/RegisteredUsers';
 import Parent from './components/parent/Parent';
+// import ManageTasks from './components/tasks/ManageTasks';
 
 
 import RootLayout from './RootLayout'
@@ -42,7 +43,12 @@ function App({children}) {
         path:'parent',
         element:<Parent />
         
-      }
+      },
+      // {
+      //   path:'tasks',
+      //   element:<ManageTasks />
+        
+      // }
     ]
   }
 ]);

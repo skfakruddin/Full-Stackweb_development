@@ -19,6 +19,9 @@ function Header(){
                 <li className='nav-item'>
                     <Link to="parent" className='nav-link text-black'>Parent</Link>
                 </li>
+                <li className='nav-item'>
+                    <Link to="tasks" className='nav-link text-black'>Manage Tasks</Link>
+                </li>
            </ul>
         </div>
     )

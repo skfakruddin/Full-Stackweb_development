@@ -12,9 +12,6 @@ function RegisteredUsers() {
     }
 
     useEffect(() => {
-        // if (state) {
-        //     setUsersList([...usersList, state]);
-        // }
         getUsers()
     }, []);
 

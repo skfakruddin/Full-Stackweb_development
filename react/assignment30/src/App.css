@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    background-color: rgb(115, 152, 191);
+    font-size: 1.5rem;
+}
