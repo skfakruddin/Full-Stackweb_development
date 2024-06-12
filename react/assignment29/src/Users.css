@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+.container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.card{
+    max-width: 440px;
+    margin-top: 20px;
+    background-color: white;
+    margin:10px 20px;
+    padding: 20px;
+    border:1px solid rgba(0, 0, 0, 0.263);
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+}
+.adduser{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+}

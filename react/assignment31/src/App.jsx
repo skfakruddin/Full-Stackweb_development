@@ -17,10 +17,10 @@ function App() {
 
   return (
     <>
-      <div className='container mx-5'>
-        <h1 className="text-center text-danger">Registration Form</h1>
+      <div className='mx-auto  mt-5 '>
+        <h1 className="text-center text-dark">Registration Form</h1>
         <form className="w-50 mx-auto" onSubmit={handleSubmit(onSubmit)}>
-          <div className="d-flex gap-5">
+          <div className="d-flex gap-5 pb-4 ">
             <div className="w-50">
               <label htmlFor="firstname" className="form-label"> FirstName</label>
               <input type="text" {...register('firstname', { required: true, minLength: 4 ,maxLength:6 })} className="form-control" id="firstname"/>
@@ -32,27 +32,27 @@ function App() {
               <label htmlFor="lastname" className="form-label">LastName</label>
               <input type="text" {...register('lastname', { required: true })} className="form-control" id="lastname" />
               {errors.lastname?.type === 'required' && (<p className="text-danger">LastName is required</p>)}
-              {errors.firstname?.type === 'minLength' && (  <p className="text-danger">Min Length Should be 4</p>)}
+              {errors.firstname?.type === 'minLength' && (<p className="text-danger">Min Length Should be 4</p>)}
               {errors.firstname?.type === 'maxLength' && (<p className="text-danger">Max Length Should be 6</p> )}
             </div>
           </div>
-          <div className="d-flex">
-            <div>
+          <div className="d-flex pb-4">
+            <div className='w-50'>
             <label htmlFor="birthday" className="form-label">  Birthday </label>
             <input type="date" className="form-control" id="birthday" />
             </div>
-            <div>
-            {/* <label htmlFor="gender" className="form-label">Gender </label> */}
+           
+            <div className=' male' >
+            <p className="">Gender </p>
               <input type="radio" {...register('gender', { required: true })} className="form-check-input" id="male"  value="male" />
-              <label htmlFor="male" className="form-check-label">Male </label>
-            </div>
-            <div>
-              <input type="radio"{...register('gender', { required: true })} className="form-check-input"  id="female" value="female"/>
-              <label htmlFor="female" className="form-check-label"> Female </label>
+              <label htmlFor="male" className="form-check-label female ">Male </label>
+            
+              <input type="radio"{...register('gender', { required: true })} className="form-check-input "  id="female" value="female"/>
+              <label htmlFor="female" className="form-check-label "> Female </label>
             </div>
             {errors.gender?.type === 'required' && (<p className="text-danger">Gender is required</p>)}
           </div>
-          <div className="d-flex gap-lg-5"><div className="w-50">
+          <div className="d-flex gap-5 pb-4"><div className="w-50">
               <label htmlFor="email" className="form-label"> Email </label>
               <input type="email" {...register('email', { required: true })} className="form-control" id="email"/>
               {errors.email?.type === 'required' && ( <p className="text-danger">Email is required</p>)}

@@ -1,7 +1,7 @@
-function UserCount()
+function UserCount(props)
 {
     return(
-        <h1>Number of users: 10</h1>
+        <h1 className="text-end text-dark mx-2"> Current users: {props.data.counter}</h1>
     )
 }
 
