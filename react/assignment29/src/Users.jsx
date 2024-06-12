@@ -8,8 +8,6 @@ function User(){
         let users=await fetch('http://localhost:3000/users',{method:"GET"});
         let usersJson=await users.json()
         setUsersList(usersJson)
-
-    
     }
     useEffect(() => {
         getUsers()
