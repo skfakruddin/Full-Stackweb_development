@@ -74,7 +74,7 @@ function Register() {
         console.log('res: ', res);
         if(res.status === 201){
             // alert('User Created Successfully');
-            navigate("/registered-users");
+            navigate("/login");
         }
 
     }
