@@ -7,6 +7,11 @@ function Parent()
     function changeCounter(){
         setCounter(counter+1)
     }
+    console.log('
+        54869+
+        60326
+        +
+        parent component rendered');
     function getDataFromChild(data){
         console.log(data)
         setdataFromChild(data);

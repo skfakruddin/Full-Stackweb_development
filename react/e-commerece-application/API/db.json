@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "0df9",
+      "username": "22501A05G1",
+      "email": "shaiknurjahan7189@gmail.com",
+      "password": "s123456",
+      "mobile": "7013357181",
+      "profile": "https://ecommerce-application-react.netlify.app/register"
+    },
+    {
+      "id": "f7eb",
+      "username": "kiran",
+      "email": "shaiknurjahan7189@gmail.com",
+      "password": "1234",
+      "mobile": "7013357181",
+      "profile": "https://ecommerce-application-react.netlify.app/register"
+    },
+    {
+      "id": "796f",
+      "username": "admin",
+      "email": "shaikfakruddin2145@gmail.com",
+      "password": "12345",
+      "mobile": "7013357181",
+      "profile": "http://localhost:4000/users"
+    }
+  ]
+}
