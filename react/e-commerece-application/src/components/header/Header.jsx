@@ -1,10 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import { HiOutlineHome } from "react-icons/hi";
-import { SiGnuprivacyguard } from "react-icons/si";
-import { FaSignInAlt } from "react-icons/fa";
-import { IoMdInformationCircle } from "react-icons/io";
-import { FcStumbleupon } from "react-icons/fc";
+
 import { userLoginContext } from "../../contexts/userLoginContext";
 import { useContext } from "react";
 
