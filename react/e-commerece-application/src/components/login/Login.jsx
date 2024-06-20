@@ -21,7 +21,7 @@ function Login() {
 
   useEffect(() => {
     if (userLoginStatus === true) {
-      navigate('/user-profile');
+      navigate('/home');
     }
   }, [userLoginStatus, navigate]);
 
@@ -31,7 +31,7 @@ function Login() {
       <div className="row">
         <div className="col-11 col-sm-10 col-md-6 mx-auto">
           <form
-            className="mx-auto mt-5 bg-light p-3"
+            className="mx-auto mt-5 bg-secondary opacity-75 rounded-2 p-3"
             onSubmit={handleSubmit(onUserLogin)}
           >
             <div className="mb-3">

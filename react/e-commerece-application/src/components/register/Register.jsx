@@ -31,7 +31,7 @@ function Register() {
 }
   return (
     <div>
-      <h1 className='text-center m-4'>User Registeration</h1>
+      <h1 className='text-center m-4 display-3'>User Registeration</h1>
 
 
       <div className='row'>
@@ -39,7 +39,7 @@ function Register() {
           {/* Other Error Messages */}
           {error && <p className='alert alert-danger'>{error}</p>}
           {/* Registration Form */}
-          <form className=' mx-auto' onSubmit={handleSubmit(handleFormSubmit)}>
+          <form className=' mx-auto bg-secondary p-4 opacity-75 rounded-3' onSubmit={handleSubmit(handleFormSubmit)}>
             {/* Username */}
             <div className='mb-3'>
               <label htmlFor="username" className='form-lable'>Username</label>

@@ -1,32 +1,57 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import './Header.css'
-
+import "./Header.css";
+import { Link } from "react-router-dom";
+import { HiOutlineHome } from "react-icons/hi";
+import { SiGnuprivacyguard } from "react-icons/si";
+import { FaSignInAlt } from "react-icons/fa";
+import { IoMdInformationCircle } from "react-icons/io";
+import { FcStumbleupon } from "react-icons/fc";
+import { userLoginContext } from "../../contexts/userLoginContext";
+import { useContext } from "react";
 
 function Header() {
+  let { logoutUser, userLoginStatus } = useContext(userLoginContext);
+
   return (
-     <div className=''>
-      <nav className='nav justify-content-md-between  d-flex flex-wrap p-1 align-items-center header  '>
-        <ul>
-          <h1 className='p-1 mt-1 text-sm-center' >Shopify</h1>
-          </ul>
-          <ul className='nav justify-content-between'>
-          <li className='nav-item'>
-            <Link to="home" className='nav-link text-white fs-4'>Home</Link>
+    <div className="d-flex flex-wrap justify-content-between header">
+      <h1 className="mt-3  mx-5">
+        Shopsy
+      </h1>
+      <ul className="nav fs-5 p-3">
+        <li className="nav-item">
+          <Link to="/home" className="nav-link text-white">
+             Home
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="register" className="nav-link text-white">
+            
+            Register
+          </Link>
+        </li>
+        {userLoginStatus === false ? (
+          <li className="nav-item">
+            <Link to="login" className="nav-link text-white">
+             
+              Login
+            </Link>
           </li>
-          <li className='nav-item'>
-            <Link to="register" className='nav-link text-white fs-4'>Register</Link>
+        ) : (
+          <li className="nav-item">
+            <Link to="login" className="nav-link text-white" onClick={logoutUser}>
+             
+              Logout
+            </Link>
           </li>
-          <li className='nav-item'>
-            <Link to="login" className='nav-link text-white fs-4 '>Login</Link>
-          </li>
-          <li className='nav-item'>
-            <Link to="about" className='nav-link text-white fs-4'>AboutUs</Link>
-          </li>
-        </ul>
-      </nav>
-     </div>
-  )
+        )}
+        <li className="nav-item">
+          <Link to="about" className="nav-link text-white">
+            
+            AboutUs
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
 }
 
 export default Header;
