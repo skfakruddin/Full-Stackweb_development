@@ -4,16 +4,28 @@ import { MdContactMail } from "react-icons/md";
 
 function Footer() {
   return (
-    <div className='d-flex felx-wrap justify-content-around bg-dark  text-center text-white p-5 fs-4'>
+    <div className='d-flex felx-wrap justify-content-around bg-dark  text-center text-white p-5 fs-4 footer'>
       <div>
-        <p className='text-info display-4'><FaRegAddressBook /></p>
-        <p>PVP SIT</p>
-        <p>Vijayawada</p>
+        <p>Consumer Policy
+        </p>
+          <ul className=''>
+          <li className=''><a rel="stylesheet" href="" >Return Policy</a></li>
+          <li><a rel="stylesheet" href="" >Terms of Use</a></li>
+          <li><a rel="stylesheet" href="" >Security</a></li>
+          <li><a rel="stylesheet" href="" >Privacy</a></li>
+           
+            
+          </ul>
+        
       </div>
       <div>
-      <p className='text-info display-4'><MdContactMail /></p>
-        <p>pvp@mail.com</p>
-        <p>99999999</p>
+      <p>Social</p>
+      <ul>
+        <li><a href="" >Facebook</a></li>
+        <li><a href="" >Twitter</a></li>
+        <li><a href="" >Instagram</a></li>
+        <li><a href="" >Youtube</a></li>
+      </ul>
       </div>
     </div>
   )

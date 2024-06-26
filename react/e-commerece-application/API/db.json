@@ -17,12 +17,214 @@
       "profile": "https://ecommerce-application-react.netlify.app/register"
     },
     {
-      "id": "796f",
+      "username": "admins",
+      "email": "shaikfakruddin2145@gmail.com",
+      "mobile": "7013357181",
+      "id": "796f"
+    },
+    {
+      "id": "4d01",
       "username": "admin",
       "email": "shaikfakruddin2145@gmail.com",
-      "password": "12345",
+      "password": "123",
       "mobile": "7013357181",
       "profile": "http://localhost:4000/users"
+    },
+    {
+      "id": "e534",
+      "username": "rasberry",
+      "email": "shaikfakruddin2145@gmail.com",
+      "password": "ras",
+      "mobile": "7013357181",
+      "profile": "http://localhost:4000/users"
+    },
+    {
+      "id": "76e7",
+      "username": "shaikfakruddin",
+      "email": "shaikfakruddin2145@gmail.com",
+      "password": "fakru",
+      "mobile": "8121658999",
+      "profile": "http://localhost:4000/users"
+    },
+    {
+      "id": "cda3",
+      "username": "shaikfakruddin",
+      "email": "shaikfakruddin2145@gmail.com",
+      "password": "fakru",
+      "mobile": "7013357181",
+      "profile": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "7e33",
+      "username": "shaik fakruddin",
+      "email": "shaikfakruddin2145@gmail.com",
+      "password": "fakru",
+      "mobile": "7013357181",
+      "profile": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EAEYQAAIBAwIDBQQHBAcGBwAAAAECAwAEEQUhBhIxE0FRYXEUIjKRFSNCgaGxwQczUnIkQ1ViktHhJVODk8LwFkVUY4LS8f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACERAQEAAgICAwEBAQAAAAAAAAABAhEDIRIxBBNBUSJh/9oADAMBAAIRAxEAPwD1oU4VEJkK55hXUmRjgGtHOnWnAZIpqnNO9KSmM148/Eb+UK/rUka82r6ch/izUOqHm4iufJUFE2w5tesh4An8DRUxsBSpUs1DUs0s0002nobSZpZpgNdzRobOpGoXnVO/JodrpidqNF5QZml1oAzyHvxXVmfxp6T5Da4aq9T1u00mDt9QlEUfpnPjWD1X9q/K8qaXYq0YXCyzHG/8vhT0NvUKZL+7b0rzHQf2qrI8cOvW6xZ29pgOVz4leoHpmt/FfQ3dp29rNHLCw9142DA/fQVYW2X/AGzL9/61rrIYjPpWWtV/2tIfEf51q7QfVn0pKnoJP8RoSSjbge8aCkoAaTrUK/vl9ankqAfvl9aDWHjUT1Pio2FBIcGlT8UqAuEQkeVSYK/DsaYzY6UoleWTlztVoExTuCM9KPimVx13oJ4DGuRvXI3II2waR+mbuSH169YHOHAo7TxzcRQf3YyaqrQ9pql456marnSRniT+WE/mKKUamuHpXa4elZtTa4a47qm7dKHN2uem1XIm0VUM0"
+    },
+    {
+      "username": "rahulkumar b",
+      "email": "shaikfakruddin2145@gmail.com",
+      "mobile": "7013357181",
+      "id": "1b4f"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones"
+    },
+    {
+      "id": "2",
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple"
+    },
+    {
+      "id": "3",
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung"
+    },
+    {
+      "id": "4",
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO"
+    },
+    {
+      "id": "5",
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei"
+    },
+    {
+      "id": "6",
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple"
+    },
+    {
+      "id": "7",
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung"
+    },
+    {
+      "id": "8",
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface"
+    },
+    {
+      "id": "9",
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix"
+    },
+    {
+      "id": "10",
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "price": 1099,
+      "discountPercentage": 6.18,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "HP Pavilion"
+    },
+    {
+      "id": "11",
+      "title": "perfume Oil",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+      "price": 13,
+      "discountPercentage": 8.4,
+      "rating": 4.26,
+      "stock": 65,
+      "brand": "Impression of Acqua Di Gio"
+    },
+    {
+      "id": "12",
+      "title": "Brown Perfume",
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Royal_Mirage"
+    },
+    {
+      "id": "2",
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "username": "rahulkumar b"
+    }
+  ],
+  "user-cart": [
+    {
+      "id": "12",
+      "title": "Brown Perfume",
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Royal_Mirage",
+      "username": "rahulkumar b"
+    },
+    {
+      "id": "12",
+      "title": "Brown Perfume",
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Royal_Mirage",
+      "username": "rahulkumar b"
     }
   ]
 }

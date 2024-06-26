@@ -9,7 +9,7 @@ function UserLoginStore({ children }) {
   async function loginUser(userCred){
     try {
       let res = await fetch(
-        `http://localhost:4000/users?username=${userCred.username}&password=${userCred.password}`
+        `http://localhost:3000/users?username=${userCred.username}&password=${userCred.password}`
       );
       let usersList = await res.json();
       console.log("userlist",usersList);
