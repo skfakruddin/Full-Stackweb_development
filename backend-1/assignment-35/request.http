@@ -1,22 +1,22 @@
-get http://localhost:4000/users
+get http://localhost:4000/products
 
 ###
-get http://localhost:4000/users/1
+get http://localhost:4000/products/1
 ###
-post http://localhost:4000/users
+post http://localhost:4000/products
 Content-Type: application/json
 
 {
     "id": 3,
-    "name": "vignesh"
+    "name": "oneplus 12R"
 }
 ###
-put http://localhost:4000/users
+put http://localhost:4000/products
 Content-Type: application/json
 
 {
     "id": 1,
-    "name": "shaik fakruddin"
+    "name": "iphone 15plus"
 }
 ###
-delete http://localhost:4000/users/1
+delete http://localhost:4000/products/1

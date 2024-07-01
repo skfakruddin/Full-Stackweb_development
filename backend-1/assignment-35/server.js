@@ -1,51 +1,51 @@
 const exp = require('express');
 const app=exp();
-const usersList=[
-    {id:1,name:'fakruddin'},
-    {id:2,name:'aditya'}
+const productList=[
+    {id:1,name:'iphone 15'},
+    {id:2,name:'vivo v30'}
 ];
-app.get('/users',(req,res)=>{
-    res.send({message:'All users',payload:usersList});
+app.get('/products',(req,res)=>{
+    res.send({message:'All users',payload:productList});
 });
 
-app.get('/users/:id',(req,res)=>{
-    const userId=Number(req.params.id);
-    let userById=usersList.find(user=>user.id==userId);
-    if(userById===undefined){
-        res.send({message:'User not found'});
+app.get('/products/:id',(req,res)=>{
+    const productId=Number(req.params.id);
+    let productById=productList.find(product => product.id == productId);
+    if(productId===undefined){
+        res.send({message:'product not found'});
     }
     else{
-        res.send({message:'User by Id',payload:userById});
+        res.send({message:'product by Id',payload: productById });
     }
-})
+});
 
 app.use(exp.json());
-app.post('/users',(req,res)=>{
-    let newUser=req.body;
-    usersList.push(newUser);
-    res.send({message:'New User Created',payload:newUser});
+app.post('/products',(req,res)=>{
+    let newProduct=req.body;
+    productList.push(newProduct);
+    res.send({message:'New product Created',payload:newProduct});
 });
 
-app.put('/users',(req,res)=>{
-    let updatedUser=req.body;
-    let index=usersList.findIndex(user=>user.id==updatedUser.id);
+app.put('/products',(req,res)=>{
+    let updatedProduct=req.body;
+    let index=productList.findIndex(product=>product.id==updatedProduct.id);
     if(index===-1){
-        res.send({message:'User not found'});
+        res.send({message:'product not found'});
     }
     else{
-        usersList[index]=updatedUser;
-        res.send({message:'User Updated',payload:updatedUser});
+        productList[index]=updatedProduct;
+        res.send({message:'product Updated',payload:updatedProduct});
     }
 });
-app.delete('/users/:id',(req,res)=>{
-    const userId=Number(req.params.id);
-    let index=usersList.findIndex(user=>user.id==userId);
+app.delete('/products/:id',(req,res)=>{
+    const productId=Number(req.params.id);
+    let index=productList.findIndex(product=>product.id==productId);
     if(index===-1){
-        res.send({message:'User not found'});
+        res.send({message:'product not found'});
     }
     else{
-        usersList.splice(index,1);
-        res.send({message:'User Deleted'});
+        productList.splice(index,1);
+        res.send({message:'product Deleted'});
     }
 });
 
