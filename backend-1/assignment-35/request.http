@@ -1,0 +1,22 @@
+get http://localhost:4000/users
+
+###
+get http://localhost:4000/users/1
+###
+post http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "vignesh"
+}
+###
+put http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "shaik fakruddin"
+}
+###
+delete http://localhost:4000/users/1
